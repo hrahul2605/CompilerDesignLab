@@ -2,18 +2,18 @@
 
 void main()
 {
-    for (char i = 0; i < 10; i++)
+    for (char i = 0; i < 5; i++)
         printf("%d\t", i);
 
-    float a = (10 / 3 * 2) % 5;
+    float a = (7 / 2) * 7;
 
-    if (!(1 == 2) && 2 || 3)
-        printf("Hello\n");
+    if (1 == 1 && 1 || 2)
+        printf("Compiler\n");
     else
-        printf("World\n");
+        printf("Design\n");
 
-    long long d = 5 ^ ~((int)a);
+    long long temp = 2 ^ ~((int)a);
 
-    while (d < 0 && d++)
-        printf("%lld\t", d);
+    while (temp < 0 && temp++)
+        printf("%lld\t", temp);
 }
