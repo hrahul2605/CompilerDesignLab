@@ -40,6 +40,7 @@
 \|\|                                        {return OR_OR_TOK;}
 \>\>                                        {return RIGHT_SHIFT_TOK;}
 \<\<                                        {return LEFT_SHIFT_TOK;}
+void                                        {return VOID_TOK;}
 int                                         {return INT_TOK;}
 main                                        {return MAIN_TOK;}
 for                                         {return FOR_TOK;}
